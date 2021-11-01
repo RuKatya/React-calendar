@@ -20,11 +20,11 @@ export interface SetAuthAction {
 }
 export interface SetErrorAction {
     type: AuthActionEnum.SET_ERROR;
-    payload: boolean;
+    payload: string;
 }
 export interface SetUserAction {
     type: AuthActionEnum.SET_USER;
-    payload: boolean;
+    payload: IUser;
 }
 export interface SetIsLoadingAction {
     type: AuthActionEnum.SET_IS_LOADING;
